@@ -1,4 +1,4 @@
-# If someone want then he fix the game to cheat only one thing we need to do some changes
+# Let's build a game
 
 import random
 
