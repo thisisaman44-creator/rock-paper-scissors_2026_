@@ -24,8 +24,16 @@ elif(player == "paper" and computer == "rock"):
 elif(player == "scissors" and computer == "paper"):
     print("You win!")
 
-elif(player in choices):
-    print("Computer wins!")
+elif(player == "rock" and computer == "paper"):
+    print("You lose!!")
+
+elif(player == "scisors" and computer == "rock"):
+    print("You lose!!")
+
+elif(player == "paper" and computer == "scissors"):
+    print("You lose!!")
+
+
 
 else:
     print("Something went wrong!! Try again.")
